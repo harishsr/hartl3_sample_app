@@ -7,47 +7,48 @@ This is the sample application for the [*Ruby on Rails Tutorial*](http://railstu
  + Rails: 4.2.0.beta2, installed through RBENV
  + Rails tutorial: version 3
 
+# STUDY GUIDE
 
-CHAPTER 1:
+## CHAPTER 1:
 
- CREATING A NEW APP
-  • Creating a new app with RBENV
-  • RBENV command to use in a rails app
-  • Command to create a new app, in general
-  • Installing a specific version of rails, with and without rbenv
-  • Choosing versions in the gemfile
-  • How to install the components of an  updated gemfile
+ + CREATING A NEW APP
+  + Creating a new app with RBENV
+  + RBENV command to use in a rails app
+  + Command to create a new app, in general
+  + Installing a specific version of rails, with and without rbenv
+  + Choosing versions in the gemfile
+  + How to install the components of an  updated gemfile
 
- MVC (Models Views Controllers)
-  • What is the MVC model?
-  • Domain (business) logic vs. input logic vs. presentation logic
-  • When a browser sends a request, what happens in MVC?
+ + MVC (Models Views Controllers)
+  + What is the MVC model?
+  + Domain (business) logic vs. input logic vs. presentation logic
+  + When a browser sends a request, what happens in MVC?
 
- GIT
-  • Creating a new git repository
-  • Adding and committing
-  • Single line command to add and commit a change
-  • Deploying and pushing to Github
-  • Choosing files for git to ignore
-  • Naming and getting on a new branch
-  • Merging two branches
-  • Deleting a branch
+ + GIT
+  + Creating a new git repository
+  + Adding and committing
+  + Single line command to add and commit a change
+  + Deploying and pushing to Github
+  + Choosing files for git to ignore
+  + Naming and getting on a new branch
+  + Merging two branches
+  + Deleting a branch
 
- COMMAND LINE: list the command to
-  • Change directories
-  • List the contents of a directory
-  • Make a directory
-  • Rename a file
-  • Copy a file
-  • Delete a file
-  • Delete a directory
-  • Delete a non-empty directory
+ + COMMAND LINE: list the command to
+  + Change directories
+  + List the contents of a directory
+  + Make a directory
+  + Rename a file
+  + Copy a file
+  + Delete a file
+  + Delete a directory
+  + Delete a non-empty directory
 
- DEPLOYMENT
-  • Changes to app before deploying to Heroku
-  • Deploying to Heroku
+ + DEPLOYMENT
+  + Changes to app before deploying to Heroku
+  + Deploying to Heroku
 
-CHAPTER 2:
+## CHAPTER 2:
  2.1 PLANNING THE APPLICATION
   • When to start planning the application?  
   • How to plan the application?
@@ -76,7 +77,7 @@ CHAPTER 2:
   • What is the inheritance hierarchy for models?
   • What to do after pushing the commit to heroku?
 
-CHAPTER 3:
+## CHAPTER 3:
  3.1 SAMPLE APP SETUP
   How can you shorten git commit -a -m "message"?  
     What does it do and when is it not effective?
