@@ -56,7 +56,7 @@ class UserTest < ActiveSupport::TestCase
   test "email address should be downcased" do 
     @user.email = "UsEr@eXample.NET"
     @user.save
-    assert(@user.email == @user.email.downcase, "The email doesn't save itself downcased.")
+    assert_equal(@user.reload.email, @user.email.downcase, "The email doesn't save itself downcased.")
   end
 
   test "passwords should have a minimum length" do 
