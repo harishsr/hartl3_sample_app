@@ -3,11 +3,11 @@ require 'test_helper'
 class UserTest < ActiveSupport::TestCase
 
   def setup
-    @user = User.new(name: "Example User", email: "user@example.com")
+    @user = User.new(name: "Example User", email: "user@example.com", password: "foobar", password_confirmation: "foobar")
   end
 
   test "should be valid" do
-    assert @user.valid?
+    assert @user.valid?, "A standard user is not valid."
   end
 
   test "name should be present" do 
@@ -57,5 +57,10 @@ class UserTest < ActiveSupport::TestCase
     @user.email = "UsEr@eXample.NET"
     @user.save
     assert(@user.email == @user.email.downcase, "The email doesn't save itself downcased.")
+  end
+
+  test "passwords should have a minimum length" do 
+    @user.password = @user.password_confirmation = "a" * 5
+    assert_not @user.valid?, "A #{@user.password.length} character password is passing.  6 should be the minimum."
   end
 end
