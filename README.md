@@ -118,3 +118,18 @@ This is the sample application for the [*Ruby on Rails Tutorial*](http://railstu
 
    + 3.6 EXERCISES
     + What function is run before every test?  How can we use this?
+
+
+
+
+
+
+
+
+
+
+    cold call
+look up local websites
+networking is key
+
+meet for coffee
